@@ -1,0 +1,50 @@
+@media screen and (max-width: 750px) {
+    .maindiv{
+        flex-direction: column;
+        width: 60% !important;
+        flex-wrap: nowrap !important;
+    }
+    .maindiv > *{
+        height: auto !important;
+    }
+    .joinourcommunity > *{
+        padding-right: 35px !important;
+    }
+    .joinourcommunity h1{
+        font-size: 25px;
+    }
+    .joinourcommunity h2{
+        font-size: 20px;
+    }
+    .para1{
+        padding-bottom: 40px;
+    }
+    .containerdiv{
+        flex-direction: column;
+    }
+    .monthsubs , .whyus{
+        width: 100% !important;
+    }
+}
+@media screen and (max-width: 620px) {
+    .maindiv{
+        width: 70% !important;
+    }
+}
+@media screen and (max-width: 535px) {
+    .maindiv{
+        width: 82% !important;
+    }
+    .joinourcommunity h1{
+        padding-right: 0;
+    }
+    .joinourcommunity h2{
+        margin-top: 20px;
+    }
+    .monthsubs{
+        padding: 30px 0 0 25px !important;
+    }
+    .signupbutton{
+        width: 90% !important;
+    }
+}
